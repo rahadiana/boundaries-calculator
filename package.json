@@ -1,0 +1,20 @@
+{
+  "name": "@rahadiana/boundaries-calculator",
+  "version": "0.0.1",
+  "description": "boundaries-calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node _test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahadiana/boundaries-calculator.git"
+  },
+  "keywords": ["boundaries","GIS","boundaries-calculator","calculator"],
+  "author": "Rahadiana Nugraha <rahadiana.nugraha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahadiana/boundaries-calculator/issues"
+  },
+  "homepage": "https://github.com/rahadiana/boundaries-calculator#readme"
+}

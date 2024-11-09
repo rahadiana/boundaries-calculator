@@ -2,14 +2,14 @@
 function calculateBoundaries(latitude, longitude, radiusInKm) {
     try {
         // Validasi input latitude (harus berada di antara -90 hingga 90)
-        if (typeof latitude !== 'number' || latitude < -90 || latitude > 90) {
-            return {code:400,message:"Invalid latitude. Latitude must be a number between -90 and 90."};
-        }
+        // if (typeof latitude !== 'number' || latitude < -90 || latitude > 90) {
+        //     return {code:400,message:"Invalid latitude. Latitude must be a number between -90 and 90."};
+        // }
 
         // Validasi input longitude (harus berada di antara -180 hingga 180)
-        if (typeof longitude !== 'number' || longitude < -180 || longitude > 180) {
-            return {code:400,message:"Invalid longitude. Longitude must be a number between -180 and 180."};
-        }
+        // if (typeof longitude !== 'number' || longitude < -180 || longitude > 180) {
+        //     return {code:400,message:"Invalid longitude. Longitude must be a number between -180 and 180."};
+        // }
 
         // Validasi radius (harus bilangan positif)
         if (typeof radiusInKm !== 'number' || radiusInKm <= 0) {

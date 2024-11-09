@@ -11,7 +11,7 @@ function calculateBoundaries(latitude, longitude, radiusInKm) {
             return {code:400,message:"Invalid longitude. Longitude must be a number between -180 and 180."};
         }
 
-        // Validasi radius (harus bilangan positif)
+        // Validasi radius (harus bilangan positif).
         if (typeof radiusInKm !== 'number' || radiusInKm <= 0) {
             return {code:400,message:"Invalid radius. Radius must be a positive number."};
         }
